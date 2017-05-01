@@ -1,0 +1,429 @@
+body{
+	font-family: 'Playfair Display', serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	
+background-color: white;
+	
+padding: 4px 0;
+}
+
+.container {width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;}
+
+.logo {width: 20%;
+	height: 30px;
+	float: left;}
+
+.logo img {
+	width: 75%;
+
+}
+
+.menu {
+	width: 60%;
+    height: 30px;
+    float: left;
+}
+
+.menu ul {
+
+margin: 0;
+
+padding: 0;
+
+text-align: left;
+}
+
+.menu ul li {
+
+display: inline-block;
+
+list-style: none;
+
+float: left;
+}
+
+.menu ul li a {
+
+text-transform: uppercase;
+
+text-decoration: none;
+
+color: black;
+
+font-size: 16px;
+
+padding: 0px 6px;
+
+display: block;
+}
+.social {
+}
+
+.social ul {
+
+margin: 0;
+
+padding: 0;
+}
+.social ul li {
+
+display: inline;
+
+list-style: none;
+
+margin: 0;
+}
+.social ul li a {
+
+text-align: right;
+
+text-decoration: none;
+
+}
+
+.fa {
+	padding: 5px;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.fa:hover{
+	opacity: .7;
+}
+.fa.fa-facebook {
+	background: #3B5998;
+    color: white;
+}
+
+.fa.fa-twitter {
+    background-color: #20666f;
+    color: white;
+}
+
+.fa.fa-linkedin {background-color: #2d40a5;color: white;}
+
+.fa.fa-google-plus {background-color: #b33e19;color: white;}
+
+.fa.fa-sign-in {padding-left: 12px;background-color: white;color: black;}
+.social span a{
+	
+font-size: 14px;
+	
+text-decoration: none;
+	
+color: #1c5c94;
+}
+
+.bg {background: url(../images/finance.png);background-size: cover;background-repeat: no-repeat;background-attachment: fixed;padding-bottom: 70px;}
+
+section.bg {}
+
+.bg img {
+
+}
+
+.banner {
+	float: left;
+	background: rgba(255, 255, 255, 0.20);
+	text-align: center;
+	margin-top: 50px;
+	padding: 15px;
+	margin-bottom: 25px;
+}
+
+.banner h1 {
+
+text-transform: uppercase;
+
+margin: 0;
+
+font-size: 45px;
+
+font-weight: bold;
+}
+.banner p{
+
+margin: 0;
+
+font-size: 15px;
+
+padding-top: 15px;
+}
+.banner ul{
+
+margin: 0;
+
+padding: 0;
+}
+.banner ul li{
+
+list-style: none;
+
+display: inline-block;
+}
+.button {
+
+    height: 35px;
+
+    text-transform: uppercase;
+
+    width: 177px;
+
+    font-size: 15px;
+
+    color: white;
+
+    background: #219421;
+
+    border: 1px solid #323214;
+
+    border-radius: 5px;
+
+margin-top: 24px;
+    
+    cursor: pointer;
+
+    margin-left: 2px;
+}
+
+.button:hover{
+	background:#095169;
+
+}
+
+.project {
+}
+
+.one {
+
+    width: 25%;
+    height: 379px;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px 20px 5px 10px;
+    text-align: center;
+
+}
+.one img {
+	border-radius: 50%;
+
+}
+.button-one {
+
+    height: 30px;
+    width: 44%;
+    text-transform: capitalize;
+    font-size: 15px;
+    background-color: #21bf21;
+    color: #fff;
+    border: 1px solid #095169;
+    cursor: pointer;
+}
+.button-one:hover{
+	background:#095169;
+}
+
+.leave-msg {
+	top: 75%;
+	right: 0;
+	position: fixed;
+}
+
+
+.leave-msg a {
+
+    text-decoration: none;
+
+    font-size: 16px;
+
+    background: #494949;
+
+    color: white;
+
+    border-radius: 5px 0 0px 0px;
+
+    padding: 5px;
+}
+.fa.fa-envelope {
+	display: inline-block;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    }
+
+.left {
+	background-color: #B7CCD3;
+	height: 300px;
+	width: 48%;
+	float: left;
+	padding-top: 19px;
+	margin-left: 2px;
+}
+.left h1 {
+
+    text-align: center;
+
+    font-size: 32px;
+
+    color: #1E2A31;
+}
+.left ul {
+	
+    margin: 0;
+	
+    padding: 0;
+}
+.left li {
+
+    list-style: none;
+
+    padding-left: 37px;
+
+    margin-top: 3px;
+}
+
+.fa.fa-dot-circle-o {
+	width: 28px;
+	font-size: 23px;
+	color: #416714;
+}
+
+.button-two {
+	    height: 30px;
+	    width: 175px;
+	    font-size: 13px;
+	    color: #fff;
+	    text-transform: uppercase;
+	    background: #6dd631;
+	    border: 1px solid #0e6380;
+	    border-radius: 5px;
+	    margin-top: 19px;
+	    cursor: pointer;
+	    margin-left: 127px;
+	    margin-right: 70px;
+}
+
+.button-two:hover{
+
+	background:#0e6380;
+}
+.right {
+	background-color: #B4E1E1;
+	height: 300px;width: 45%;
+	float: left;
+	padding-top: 20px;
+	margin-left: 55px;
+	display: block;
+}
+
+.right h1 {
+
+    text-align: center;
+
+    font-size: 32px;
+
+    color: #1E2A31;
+}
+
+.right li {
+
+    list-style: none;
+
+    padding-left: 0px;
+
+    margin-top: -2px;
+}
+
+}
+.blog {
+}
+.blog span {
+	text-transform: capitalize;
+	text-align: center;
+    font-size: 30px;
+    color: #095169;
+}
+.a {
+	float: left;
+    width: 47%;
+    margin-bottom: 50px;
+}
+.a h1 {
+	        color: #095169;
+}
+
+
+.a a {
+	text-decoration: none;
+	text-transform: capitalize
+}
+
+.b {
+	float: left;
+	width: 47%;
+	margin-bottom: 50px;
+}
+.b h1 {
+
+    color: #095169;
+}
+.b a{
+	
+    text-decoration: none;
+	
+    text-transform: capitalize;
+}
+
+.so-far {
+	text-align: center;
+	font-size: 20px;
+	background: #EEEEEE;
+}
+
+.achievement {
+	font-weight: bold;
+}
+
+
+.rate {
+	text-align: center;
+}
+
+.mention {
+	background: #EEEEEE;
+}
+
+.footer {
+	background-color: #052D3A;
+}
+
+.left-footer {
+
+	width: 48%;
+    float: left;
+    text-align: right;
+    font-size: 15px;
+    font-weight: bold;
+    color: wheat;
+}
+
+.right-footer {
+	width: 48%;
+    float: right;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.right-footer a {
+	color: white;
+}
